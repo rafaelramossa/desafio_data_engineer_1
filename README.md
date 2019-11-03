@@ -26,23 +26,36 @@ Criado a função "matriz_correta" que está no arquivo `Questao1.ipynb`
 **3) Se não houver escadinha, retorne se a matriz está com uma formatação que pode ser utilizada (padrão correto) ou se corresponde a um padrão inutilizável.**
 
 **4) Caso fossem possíveis números negativos nos valores dos meses (não no total), a sua solução ainda seria válida? Caso não, como seria a nova solução?**
-
+Sim! Pois não estou utilizando os valores positivos para a solução.
 
 ## Questão 2
 
 Você tem duas tabelas em um banco de dados relacional.
 
-Tabela Vendedor:
-vendedor_id (int)
-vendedor_nome (string)
+Tabela Vendedor:<br />
+vendedor_id (int)<br />
+vendedor_nome (string)<br />
 
-Tabela Venda:
-venda_id (int)
-vendedor_id (int)
-venda_data (data dd/mm/aaaa)
-venda_valor (double)
+Tabela Venda:<br />
+venda_id (int)<br />
+vendedor_id (int)<br />
+venda_data (data dd/mm/aaaa)<br />
+venda_valor (double)<br />
 
 **Retorne a lista com a venda de valor mais alto de cada vendedor para o ano de 2016. Não utilize as funções Min/Max.**
+
+Disponibizado no repositorio 2 scripts sendo eles:<br />
+`Questao2_CreateDatabase_InsertTable.sql` com a criação do Database, criação das Tabelas e Carga dos Dados.<br />
+`Questao2_Select.sql` com a solução do exercicio, nele para evitar o uso do MAX utilizei uma subquery com o ROW_NUMBER() OVER e PARTITION BY recurso este do SQL Server.<br />
+
+Para solucionar este desafio criei as tabelas em um ambiente no RDS da AWS.
+
+### Acesso ao Database RADIX no ambiente da AWS
+
+Endpoint: poseidon.cbwndpuop4x8.us-east-2.rds.amazonaws.com<br />
+Porta: 1433<br />
+Login: RadixRecruit<br />
+Password: r4d1x<br />
 
 
 ## Nota da Radix
