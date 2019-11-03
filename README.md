@@ -52,6 +52,8 @@ Para solucionar este desafio criei as tabelas em um ambiente no RDS da AWS.
 
 ### Acesso ao Database RADIX no ambiente da AWS
 
+![](SQLSERVER.PNG)
+
 Endpoint: poseidon.cbwndpuop4x8.us-east-2.rds.amazonaws.com<br />
 Porta: 1433<br />
 Login: RadixRecruit<br />
