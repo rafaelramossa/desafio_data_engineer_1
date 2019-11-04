@@ -47,7 +47,7 @@ venda_valor (double)<br />
 
 **Retorne a lista com a venda de valor mais alto de cada vendedor para o ano de 2016. Não utilize as funções Min/Max.**
 
-Disponibizado no repositorio 2 scripts sendo eles:<br />
+Disponibizei no repositorio dois scripts conforme segue abaixo:<br />
 `Questao2_CreateDatabase_InsertTable.sql` com a criação do Database, criação das Tabelas e Carga dos Dados.<br />
 `Questao2_Select.sql` com a solução do exercicio, nele para evitar o uso do MAX utilizei uma subquery com o ROW_NUMBER() OVER e PARTITION BY recurso este do SQL Server.<br />
 
