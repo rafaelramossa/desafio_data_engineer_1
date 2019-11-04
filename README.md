@@ -14,19 +14,22 @@ Para solucionar o problema, entregue um código que:
 
 **1) Verifica se há escadinha, dada uma matriz como os exemplos acima.**
 
-Para solucionar o exercicio 1 utilizei como base a função diag do numpy para identificar se é uma matriz diagonal. Observando a matriz na 1 linha e 1 coluna e se repetir o mesmo valor na 2 linha e 2 coluna considero uma matriz escadinha.
-Criado a função "is_escadinha" que está no arquivo `Questao1.ipynb`
+Para solucionar o exercicio 1 utilizei como base a função diag do numpy para identificar se é uma matriz diagonal.<br />
+Criado a função "is_escadinha" que está no arquivo `Questao1_Python.ipynb`
 
 **2) Se houver escadinha, mapear os dados corretamente, retornando a matriz correta.**
 
-Para solucionar o exercicio 2 entendi que o Total (soma dos meses) sempre será o maior valor da linha e deverá sempre estar na ultima posição. Utilizando o mapeamento de posição e indice no Python retorno a matriz correta.
-Criado a função "matriz_correta" que está no arquivo `Questao1.ipynb`
+Para solucionar o exercicio 2 entendi que o Total (soma de todos os meses) sempre será o maior valor de uma linha e deverá sempre estar na ultima posição. Utilizando mapeamento de posição e indice no Python retorno a matriz correta.<br />
+Criado a função "matriz_correta" que está no arquivo `Questao1_Python.ipynb`
 
 
 **3) Se não houver escadinha, retorne se a matriz está com uma formatação que pode ser utilizada (padrão correto) ou se corresponde a um padrão inutilizável.**
 
+Se não houver uma escadinha e a matriz for invertida a função "is_escadinha" irá retornar o texto "Matriz Invertida".
+
 **4) Caso fossem possíveis números negativos nos valores dos meses (não no total), a sua solução ainda seria válida? Caso não, como seria a nova solução?**
-Sim! Pois não estou utilizando os valores positivos para a solução.
+
+Sim! Pois não estou utilizando os valores positivos para a solução e sim funções especificas do Python.
 
 ## Questão 2
 
